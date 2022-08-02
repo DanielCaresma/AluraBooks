@@ -1,0 +1,10 @@
+@import url(/assets/css/componentes/header.css);
+
+:root {
+    --cor-de-fundo: #EBECEE;
+    --branco: #ffffff;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+}
