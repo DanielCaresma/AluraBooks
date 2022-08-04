@@ -2,6 +2,8 @@
 @import url(/assets/css/componentes/banner.css);
 @import url(/assets/css/componentes/corrossel.css);
 @import url(/assets/css/componentes/topicos.css);
+@import url(/assets/css/componentes/contato.css);
+@import url(/assets/css/componentes/rodape.css);
 
 :root {
     --cor-de-fundo: #EBECEE;
