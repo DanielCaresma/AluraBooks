@@ -66,6 +66,10 @@
     text-transform: uppercase;
 }
 
+.container__texto {
+    display: none;
+}
+
 @media screen and (min-width: 1024px) {
     .cabecalho__menu-hamburguer {
         display: none;
@@ -111,5 +115,30 @@
     .opcoes__botao:checked ~ .lista-menu {
         display: block;
         width: auto;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    .container__titulo {
+        margin-right: 4.2rem;
+    }
+
+    .container__link {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: var(--preto);
+    }
+
+    .cabecalho {
+        padding: 0 5rem;
+    }
+
+    .opcoes {
+        margin-right: auto;
+    }
+
+    .container__texto {
+        display: block;
     }
 }
