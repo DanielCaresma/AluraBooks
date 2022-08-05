@@ -17,7 +17,7 @@
 
 .container {
     display: flex;
-     align-items: center;
+    align-items: center;
 }
 
 .container__imagem {
@@ -101,6 +101,10 @@
     }
 
     .container__imagem-tranparente {
+        display: none;
+    }
+
+    .opcoes__botao {
         display: none;
     }
 
